@@ -40,3 +40,7 @@ Getting started
         'rest_framework',
         'snippets.apps.SnippetsConfig',
     )
+
+Permissions
+-----------
+    http -a tom:password123 POST http://127.0.0.1:8000/snippets/ code="print 789"
